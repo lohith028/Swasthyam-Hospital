@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Take a visual tour of Swasthyam Hospital. See our facilities, patient rooms, diagnostic labs, and our dedicated team of medical professionals." />
+  <title>Gallery | Swasthyam Super Speciality Hospital</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&display=swap" rel="stylesheet" />
+
+  <!-- Shared CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip Link -->
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header>
+    <nav class="navbar scrolled" id="navbar" aria-label="Main navigation">
+      <div class="navbar__inner">
+        <!-- Logo -->
+        <a href="index.html" class="navbar__logo" aria-label="Swasthyam Hospital – Home">
+          <img
+            class="navbar__logo-icon"
+            src="./swasthyam-hosiptal-logo.png"
+            alt="Swasthyam Super Speciality Hospital logo"
+            width="44" height="44"
+          />
+          <div class="navbar__logo-text">
+            <span class="navbar__logo-name">Swasthyam</span>
+            <span class="navbar__logo-tagline">Super Speciality Hospital</span>
+          </div>
+        </a>
+
+        <!-- Desktop nav -->
+        <div class="navbar__nav">
+          <ul class="navbar__links" role="list">
+            <li><a href="index.html" class="navbar__link">Home</a></li>
+            <li><a href="services.html" class="navbar__link">Services</a></li>
+            <li><a href="about.html" class="navbar__link">About</a></li>
+            <li><a href="blog.html" class="navbar__link">Blog</a></li>
+            <li><a href="gallery.html" class="navbar__link active">Gallery</a></li>
+            <li><a href="contact.html" class="navbar__link">Contact</a></li>
+          </ul>
+          <a href="contact.html" class="btn btn--primary">Book Appointment</a>
+        </div>
+
+        <!-- Hamburger -->
+        <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <div class="navbar__mobile-menu" id="mobile-menu" aria-hidden="true" role="navigation">
+        <a href="index.html" class="navbar__mobile-link">Home</a>
+        <a href="services.html" class="navbar__mobile-link">Services</a>
+        <a href="about.html" class="navbar__mobile-link">About</a>
+        <a href="blog.html" class="navbar__mobile-link">Blog</a>
+        <a href="gallery.html" class="navbar__mobile-link">Gallery</a>
+        <a href="contact.html" class="navbar__mobile-link">Contact</a>
+        <a href="contact.html" class="btn btn--primary navbar__mobile-cta" style="text-align:center;">Book Appointment</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero Section for Gallery Page -->
+    <section class="hero hero--subpage" aria-labelledby="gallery-hero-title">
+      <div class="container">
+        <div class="hero__inner">
+          <div class="hero__content">
+            <p class="section-label">Inside Swasthyam</p>
+            <h1 class="hero__headline" id="gallery-hero-title">Hospital <em>Gallery</em></h1>
+            <p class="hero__sub">A glimpse into our world-class facilities and the people who make it special.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="section-pad">
+      <div class="container">
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="./swasthyam-building-front.png" alt="Hospital Building Front" loading="lazy">
+            <div class="gallery-caption">Main Hospital Building</div>
+          </div>
+          <div class="gallery-item">
+            <img src="./swasthyam-front-desk.png" alt="Reception Desk" loading="lazy">
+            <div class="gallery-caption">Reception & Front Desk</div>
+          </div>
+          <div class="gallery-item">
+            <img src="./swasthyam-doctor-and-staff.png" alt="Our Medical Team" loading="lazy">
+            <div class="gallery-caption">Our Expert Doctors & Staff</div>
+          </div>
+          <div class="gallery-item">
+            <img src="./swasthyam-Patient-Rooms.png" alt="Patient Room" loading="lazy">
+            <div class="gallery-caption">Modern Patient Rooms</div>
+          </div>
+          <div class="gallery-item">
+            <img src="./swasthyam-Sitting-area.png" alt="Waiting Area" loading="lazy">
+            <div class="gallery-caption">Comfortable Waiting Area</div>
+          </div>
+          <div class="gallery-item">
+            <img src="./swasthyam-medician-store.png" alt="Pharmacy" loading="lazy">
+            <div class="gallery-caption">In-House Pharmacy</div>
+          </div>
+          <div class="gallery-item">
+            <img src="./swasthyam-staff-02.png" alt="Medical Staff" loading="lazy">
+            <div class="gallery-caption">Dedicated Nursing Staff</div>
+          </div>
+          <div class="gallery-item">
+            <img src="./swasthyam-staff.png" alt="Staff Members" loading="lazy">
+            <div class="gallery-caption">Our Caring Support Team</div>
+          </div>
+          <div class="gallery-item">
+            <img src="./swasthyam-hospital-building.png" alt="Hospital Side View" loading="lazy">
+            <div class="gallery-caption">Swasthyam Hospital Exterior</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__main">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">
+            <img src="./swasthyam-hosiptal-logo.png" alt="Swasthyam logo" width="40" height="40" style="filter:brightness(0) invert(1);" />
+            <span class="footer__brand-name">Swasthyam Hospital</span>
+          </div>
+          <p class="footer__brand-tag">Your Health. Our Priority.</p>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="services.html" class="footer__link">Services</a></li>
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="blog.html" class="footer__link">Blog</a></li>
+            <li><a href="gallery.html" class="footer__link">Gallery</a></li>
+            <li><a href="contact.html" class="footer__link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Contact</h4>
+          <address class="footer__contact">
+            📍 Herohalli, Bengaluru<br>
+            📞 +91 63649 28941
+          </address>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 Swasthyam Hospital.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+    hamburger.addEventListener('click', () => {
+      const open = hamburger.classList.toggle('open');
+      mobileMenu.classList.toggle('open', open);
+    });
+  </script>
+</body>
+</html>
